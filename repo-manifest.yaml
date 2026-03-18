@@ -1,0 +1,13 @@
+repo: akasha-lens
+
+role: interpretation
+layer: contextual
+
+description: >
+  Provides contextual weighting and domain-specific perspectives for interpreting graph structures.
+
+interfaces:
+  - akasha-discovery
+  - akasha-world
+
+status: active
