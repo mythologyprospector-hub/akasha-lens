@@ -101,3 +101,7 @@ Understanding emerges by examining systems from many angles.
 A lens does not define truth.
 
 It provides a way of seeing.
+
+---
+
+This repository participates in the Akasha ecosystem and is described by repo-manifest.yaml.
