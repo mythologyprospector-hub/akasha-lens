@@ -1,5 +1,5 @@
 repo: akasha-lens
-role: interpretation
+role: lens
 layer: contextual
 description: 'Provides contextual weighting and domain-specific perspectives for interpreting
   graph structures.
