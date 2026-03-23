@@ -1,13 +1,18 @@
 repo: akasha-lens
-
 role: interpretation
 layer: contextual
+description: 'Provides contextual weighting and domain-specific perspectives for interpreting
+  graph structures.
 
-description: >
-  Provides contextual weighting and domain-specific perspectives for interpreting graph structures.
-
+  '
 interfaces:
-  - akasha-discovery
-  - akasha-world
-
-status: active
+- akasha-discovery
+- akasha-world
+status:
+  maturity: experimental
+  confidence: low
+  active: true
+name: akasha-lens
+type: module
+domain: systems
+depends_on: []
