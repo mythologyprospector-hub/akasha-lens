@@ -15,4 +15,6 @@ status:
 name: akasha-lens
 type: module
 domain: systems
-depends_on: []
+depends_on:
+- akasha-observer
+- akasha-world
