@@ -1,42 +1,49 @@
-repo: akasha-lens
-role: lens
-layer: contextual
-description: 'Provides contextual weighting and domain-specific perspectives for interpreting
-  graph structures.
-
-  '
-interfaces:
-- akasha-discovery
-- akasha-world
-status:
-  maturity: experimental
-  confidence: low
-  active: true
-name: akasha-lens
-type: module
-domain: systems
-depends_on:
-- akasha-observer
-- akasha-world
+repo:
+  name: akasha-lens
+  ecosystem: akasha
+  version: 0.1.0
+  status: active
 
 engine:
   family: ontology
   class: concept_engine
-  role: unknown
+  role: interpretive_view_modeling
 
 identity:
   role: engine
-  layer: unknown
+  layer: theory
   description: >
-    Canonical Akasha repo placeholder. Replace with repo-specific description.
+    Lens engine for the Akasha constellation.
+    Responsible for defining interpretive viewpoints, frames, and structured
+    ways of examining the same underlying data or relation from multiple angles
+    without collapsing them into a single flattened reading.
 
 ownership:
   steward: human
   approval_required: true
 
-capabilities: []
+interfaces:
+  consumes:
+    - ontology_models
+    - event_records
+    - graph_structures
+    - conceptual_views
+  produces:
+    - lens_definitions
+    - perspective_models
+    - framed_interpretations
+
+capabilities:
+  - viewpoint_modeling
+  - perspective_structuring
+  - interpretive_frame_definition
+  - multi_angle_analysis_support
 
 alignment:
   axioms_required: true
   canonical_structure: true
   interpretation_free_core: true
+
+depends_on:
+  - akasha-ontology
+  - akasha-axioms
