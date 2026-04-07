@@ -47,3 +47,11 @@ alignment:
 depends_on:
   - akasha-ontology
   - akasha-axioms
+
+# ---- Canonical sections added by akasha-canon ----
+type: organ
+
+family: discovery
+
+role: lens
+
